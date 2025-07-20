@@ -27,10 +27,10 @@ function App() {
 
 
   return (
-    <div className="container-fluid h-screen flex w-full justify-center items-center bg-pink-100 p-10">
-      <div className="container bg-pink-300 md:h-[640px] h-[440px] w-[550px] rounded-2xl border border-pink-900 shadow-md shadow-black md:p-3">
+    <div className="container-fluid h-screen flex w-full justify-center items-center bg-blue-50 p-10">
+      <div className="container bg-blue-200 md:h-[640px] h-[440px] w-[550px] rounded-2xl border border-pink-900 shadow-md shadow-black md:p-3">
         <div className="md:p-8 p-5">
-          <input id="result" type="text" value={result} className="bg-white w-full p-3 rounded-md text-4xl text-pink-900 shadow-xl text-right" readOnly/></div>
+          <input id="result" type="text" value={result} className="bg-white w-full p-3 rounded-md text-4xl text-blue-900 shadow-xl text-right" readOnly/></div>
         <div className="grid grid-cols-4 md:pe-8 md:ps-3 pe-4 gap-4 max-h-full mt-4">
           <div className="col-span-3">
             <div className="grid grid-rows-5 md:gap-6 gap-4 text-center md:px-5 ps-5 pe-2">
